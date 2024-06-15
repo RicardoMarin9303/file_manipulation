@@ -20,6 +20,7 @@ def change_name(directory, signo):
             os.rename(path_name, path_replace)
         else:
             print("En el siguiente fichero, " + i + " tienes un error")
+            print("")
 
 
 # inicializamos la funcion
